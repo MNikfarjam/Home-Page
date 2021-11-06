@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{font-family: BNazanin;
+		src:  url("BNazanin.eot");
+		src:  url("BNazanin.ttf");
+		src:  url("BNazanin.woff");}}
+html,body {width: 980;}
+
+.header		{width: 980px; height: 150px; 
+			border: solid 0px black; 
+			border-collapse: collapse;}
+.header img,h1 {border: solid 0px black; 
+			border-collapse: collapse;
+			border-spacing: 0px;			
+			background-origin: border-box;
+			float: left;
+			font-family: BNazanin;}
+.flag
+			{float: right;
+			background-image: url("icons.jpg");
+			border: 0px solid rgba(0,0,0);
+			border-collapse: collapse;
+			border-spacing: 0px;
+			background-origin: border-box;
+			padding: 0px;
+			background-repeat: no-repeat;
+			}
+.flag.flag1 {width: 54px; height: 29px;
+			background-position: 0px -2px;
+			margin:5px 3px;}
+.flag.flag2 {width: 54px; height: 31px;
+			background-position: -54px -3px;
+			margin:5px 4px;}
+.flag.contact {width: 32px; height: 32px;
+			background-position: -12px -36px;
+			margin:112px -80px 5px 0px}
+.flag.home {width: 32px; height: 32px;
+			background-position: -66px -32px;
+			margin:112px -119px 5px 3px}
+.head		{width: 680px; height: 150px;
+			text-align: center;
+			line-height: 150px;
+			border-collapse: collapse;
+			border-spacing: 0px;
+			margin: 0px;
+			font-size: 50px;
+			padding: 0px;}
+.block		{background-image: url("background.jpg");
+			background-origin: border-box;
+			padding: 0px;
+			
+			width: 980px; height: 530px;
+			float:left;}
+.part3      {width: 980px; height: 150px;
+			float:left;}
+.part3 figcaption{width: 250px; height: 150px;
+				float:left;
+				margin: -50px 38px 10px;}
+.part4		{width: 980px; height: 200px;
+			float:left;
+			margin: 0px 0px 40px 0px:}
+.part4 figcaption{width: 200px; height: 200px;
+				float:left;
+				margin: 10px 22px 40px;}
+.part5			{width: 980px; height: 400px;
+				float:left;			
+				border: 0 solid rgba(0,0,0);
+				border-collapse: collapse;
+				border-spacing: 0px;
+				direction:rtl;
+				font-size: 25px;
+				font-family: BNazanin;
+				text-align: justify;
+				margin: 40px 0px 0px 0px;
+				background-color: yellow;}
+.part5 figcaption{width: 400px; height: 400px;
+				float:right;
+				margin: 0px;}
+.part6			{width: 980px; 
+				float:left;			
+				border: 0px solid rgba(0,0,0);
+				border-collapse: collapse;
+				border-spacing: 0px;
+				direction:rtl;
+				font-size: 25px;
+				font-family: BNazanin;
+				text-align: justify;}
+.part6 article {border: solid 0 black; 
+				border-collapse: collapse;}
+.part6 .network {float: left; width:250px;
+				}
+.part6 .contact {float:right; width:370px;}
+.part6 .us {float: left; width:354px;
+			margin: 0px 0px 0px 0px}
+.network
+			{float: right;
+			background-image: url("icons2.jpg");
+			border: 0px solid rgba(0,0,0);
+			border-collapse: collapse;
+			border-spacing: 0px;
+			background-origin: border-box;
+			padding: 0px;
+			background-repeat: no-repeat;
+			}
+.network.flag1 {float:left;
+			width: 45px; height: 45px;
+			background-position: -4px -4px;
+			margin:0px 3px;}
+.network.flag2 {float: left;
+			width: 45px; height: 45px;
+			background-position: -54px -5px;
+			margin:0px 2px;}
+.network.contact {float:left;
+			width: 45px; height: 45px;
+			background-position: -8px -52px;
+			margin:0px 2px}
+.network.home {width: 45px; height: 45px;
+			background-position: -100px -52px;
+			margin:0px 2px}
+
+
